@@ -1,0 +1,2 @@
+fuente,jump_detected,detected_frames,total_video_frames,detection_rate,mean_detection_quality,quality_assessment,estimated_takeoff_time_s,estimated_peak_time_s,estimated_landing_time_s,estimated_flight_time_s,max_hip_displacement_normalized
+Demostración con datos simulados,True,120,120,1.0,0.96,alta,1.3,2.067,2.833,1.533,0.1074

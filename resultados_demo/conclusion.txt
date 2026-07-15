@@ -1,0 +1,1 @@
+Se detectó un patrón compatible con un salto en los datos simulados. La calidad de detección fue alta. Las métricas son aproximaciones cinemáticas y deben interpretarse junto con observación profesional y herramientas validadas.

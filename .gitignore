@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+modelos/*.task
+videos_entrada/*
+!videos_entrada/.gitkeep
+resultados/*
+!resultados/.gitkeep
+.env
+.DS_Store
+Thumbs.db

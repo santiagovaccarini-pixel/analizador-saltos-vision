@@ -2,9 +2,33 @@
 
 **Autor:** Santiago Vaccarini  
 **Carrera:** Ciencia de Datos  
-**Materia:** Programación 1  
-**Repositorio:** https://github.com/santiagovaccarini-pixel/analizador-saltos-vision
+**Materia:** Programación 1
 
-Aplicación de consola desarrollada en Python que procesa videos de saltos, detecta puntos corporales mediante MediaPipe Pose Landmarker, calcula ángulos articulares aproximados y genera métricas, gráficos, archivos CSV/JSON/Excel y conclusiones técnicas. Incluye además un modo de demostración con datos simulados reproducibles.
+Aplicación de consola en Python que analiza videos de saltos mediante MediaPipe Pose Landmarker, calcula ángulos articulares aproximados y genera métricas, gráficos y reportes. Incluye un modo de demostración reproducible sin video.
 
-El proyecto completo, la instalación, la ejecución, las decisiones técnicas, las pruebas, las limitaciones y las fuentes están documentadas en este README.
+## Instalación
+
+Se recomienda Python 3.12.
+
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## Ejecución
+
+```bash
+python main.py --demo --salida resultados_demo
+python main.py --video videos_entrada/salto.mp4 --salida resultados
+```
+
+## Pruebas
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+El proyecto utiliza módulos propios, docstrings PEP 257, organización modular, manejo de errores, archivos de entrada/salida y dependencias declaradas.

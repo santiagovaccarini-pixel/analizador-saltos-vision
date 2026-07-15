@@ -37,8 +37,8 @@ def calcular_angulo(
 
     Devuelve ``nan`` cuando algún vector tiene longitud prácticamente nula.
     """
-    vector_ba = punto_a - vertice_b
-    vector_bc = punto_c - vertice_b
+    vector_ba = np.asarray(punto_a, dtype=float) - np.asarray(vertice_b, dtype=float)
+    vector_bc = np.asarray(punto_c, dtype=float) - np.asarray(vertice_b, dtype=float)
     norma = np.linalg.norm(vector_ba) * np.linalg.norm(vector_bc)
     if norma <= 1e-12:
         return float("nan")
@@ -47,12 +47,24 @@ def calcular_angulo(
     return math.degrees(math.acos(coseno))
 
 
+def punto_medio(a: Sequence[float], b: Sequence[float]) -> tuple[float, ...]:
+    """Devuelve el punto medio entre dos coordenadas."""
+    return tuple((np.asarray(a, dtype=float) + np.asarray(b, dtype=float)) / 2.0)
+
+
+def diferencia_absoluta(valor_a: float, valor_b: float) -> float:
+    """Calcula una diferencia absoluta preservando valores faltantes."""
+    if np.isnan(valor_a) or np.isnan(valor_b):
+        return math.nan
+    return abs(valor_a - valor_b)
+
+
 def angulo_articular(
     landmarks: Sequence[Any],
     indices: tuple[int, int, int],
     visibilidad_minima: float = MIN_VISIBILITY,
 ) -> float:
-    """Calcula un ángulo si sus landmarks tienen visibilidad suficiente."""
+    """Calcula un ángulo si sus tres landmarks tienen visibilidad suficiente."""
     if any(visibilidad(landmarks, i) < visibilidad_minima for i in indices):
         return float("nan")
     a, b, c = (punto_xy(landmarks, i) for i in indices)

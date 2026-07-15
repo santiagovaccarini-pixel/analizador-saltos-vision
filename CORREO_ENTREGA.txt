@@ -1,0 +1,13 @@
+Asunto: Final Programación 1 | Vaccarini, Santiago | Miércoles
+
+Hola Juan Pablo:
+
+Adjunto mi trabajo final de Programación 1.
+
+Repositorio del proyecto:
+https://github.com/santiagovaccarini-pixel/analizador-saltos-vision
+
+El proyecto consiste en un analizador de saltos con visión por computadora desarrollado en Python. Incluye código modular, documentación, dependencias, pruebas y un modo de demostración reproducible.
+
+Saludos,
+Santiago Vaccarini

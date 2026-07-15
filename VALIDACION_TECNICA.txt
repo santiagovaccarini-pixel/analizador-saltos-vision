@@ -1,0 +1,8 @@
+VALIDACIÓN TÉCNICA
+
+- Pruebas unitarias: 5 aprobadas.
+- Compilación de módulos Python: correcta.
+- Modo demostración: ejecutado correctamente.
+- Archivos generados: CSV, JSON, Excel, gráficos PNG y conclusión TXT.
+- La ejecución con video real requiere Python 3.12, dependencias instaladas y un video donde el cuerpo sea visible.
+- Las métricas son estimaciones cinemáticas 2D y no constituyen diagnóstico médico.

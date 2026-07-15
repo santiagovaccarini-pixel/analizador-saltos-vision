@@ -11,8 +11,9 @@
 - [x] README.md.
 - [x] requirements.txt.
 - [x] Instrucciones para venv.
-- [x] Pruebas unitarias.
+- [x] Cinco pruebas unitarias aprobadas.
 - [x] Modo demo reproducible.
+- [x] Validación real sobre un video de 1.260 frames.
 - [x] Informe PDF con partes 2, 3, 4, 5A, 6, 7 y 8.
 - [x] Repositorio de GitHub creado como `analizador-saltos-vision`.
 - [x] Código y documentación publicados en GitHub.

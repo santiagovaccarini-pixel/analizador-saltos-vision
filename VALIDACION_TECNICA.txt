@@ -1,8 +1,14 @@
-VALIDACIÓN TÉCNICA
+VALIDACIÓN TÉCNICA FINAL
 
 - Pruebas unitarias: 5 aprobadas.
+- Ruff: código sin errores de estilo detectados.
 - Compilación de módulos Python: correcta.
 - Modo demostración: ejecutado correctamente.
-- Archivos generados: CSV, JSON, Excel, gráficos PNG y conclusión TXT.
-- La ejecución con video real requiere Python 3.12, dependencias instaladas y un video donde el cuerpo sea visible.
+- Video real: 10,51 segundos, 1920 × 1080, 119,88 FPS y 1.260 frames.
+- Frames procesados: 1.260 de 1.260.
+- Calidad media de detección: 96,37 %.
+- Salto detectado: sí.
+- Tiempo aéreo estimado: 0,392 segundos.
+- Archivos generados: CSV, JSON, Excel, gráficos PNG, video anotado y conclusión TXT.
+- El video original no se publica por privacidad.
 - Las métricas son estimaciones cinemáticas 2D y no constituyen diagnóstico médico.

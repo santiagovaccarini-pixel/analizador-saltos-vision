@@ -1,19 +1,21 @@
 # Checklist de entrega
 
-- [x] Programa Python con propósito concreto
-- [x] Código modular
-- [x] Docstrings PEP 257
-- [x] Estilo PEP 8
-- [x] Dos o más librerías externas
-- [x] Módulos propios
-- [x] Manejo de errores
-- [x] Lectura y escritura de archivos
-- [x] README
-- [x] requirements.txt
-- [x] Entorno virtual documentado
-- [x] Pruebas automáticas
-- [x] Modo demostración reproducible
-- [x] Defensa escrita
-- [x] Bibliografía
-- [ ] Validación adicional con un video real del estudiante
-- [ ] Compartir el repositorio con juampaweb
+- [x] Programa Python con propósito concreto.
+- [x] Código modular, legible y documentado.
+- [x] Docstrings compatibles con PEP 257.
+- [x] Estilo orientado a PEP 8.
+- [x] Dos o más módulos externos.
+- [x] Módulos propios.
+- [x] Manejo de errores.
+- [x] Lectura/escritura de archivos.
+- [x] README.md.
+- [x] requirements.txt.
+- [x] Instrucciones para venv.
+- [x] Pruebas unitarias.
+- [x] Modo demo reproducible.
+- [x] Informe PDF con partes 2, 3, 4, 5A, 6, 7 y 8.
+- [x] Repositorio de GitHub creado como `analizador-saltos-vision`.
+- [x] Código y documentación publicados en GitHub.
+- [x] Acceso de lectura confirmado para `juampaweb`.
+- [x] Enlace del PDF confirmado con el repositorio.
+- [ ] Enviar PDF y enlace por correo.
